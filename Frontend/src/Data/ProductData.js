@@ -11,7 +11,7 @@ const products = [
         "Stylish and affordable."] 
     },{ 
         id: 2,
-        name: "Sporty Running Shoes",
+        name: "Running Shoes",
         brand: "RunFast",
         category: "Footwear",
         price: 890.99,
@@ -40,7 +40,7 @@ const products = [
         reviews: ["Comfortable and breathable.",
         "Fits perfectly!"] },
         { id: 5,
-        name: "Formal Suit",
+        name: "Formal Men's Suit",
         brand: "Executive Style",
         category: "Clothing",
         price: 3000.00,
@@ -60,7 +60,7 @@ const products = [
         "Love the fitness tracking features."] 
     },{ 
         id: 7,
-        name: "Wireless Headphones",
+        name: "Headphones",
         brand: "SoundMax",
         category: "Electronics",
         price: 250.00,
@@ -130,7 +130,7 @@ const products = [
         "Lasts all day."] 
     },{ 
         id: 14,
-        name: "Lipstick Set",
+        name: "Lipstick Set 12",
         brand: "GlamLook",
         category: "Beauty",
         price: 2900.00,
@@ -180,7 +180,7 @@ const products = [
         "Easy to use and clean."] 
     },{ 
         id: 19,
-        name: "Pet Bed",
+        name: "Sponge Pet Bed",
         brand: "ComfyPaws",
         category: "Pet Supplies",
         price: 1500.00,
@@ -198,7 +198,37 @@ const products = [
         image: "https://www.foodengineeringmag.com/ext/resources/Issues/2020/06-June/fe0620-petfood3_ProAmpac-QUADFLEX.jpg",
         reviews: ["My dog loves the taste!",
         "Great for digestion."] 
-    }
+    },
+    {
+        id: 21,
+        name: "Leather Handbag",
+        brand: "Luxury Bags",
+        category: "Accessories",
+        price: 1500.00,
+        description: "A premium leather handbag with spacious compartments.",
+        image: "https://assets.ajio.com/medias/sys_master/root/20231028/PL5u/653cae77ddf77915195ff66d/-473Wx593H-465618157-tan-MODEL5.jpg",
+        reviews: ["High-quality leather.", "Very stylish and functional."]
+      },
+      {
+        id: 22,
+        name: "Leather Jacket",
+        brand: "Fashionista",
+        category: "Clothing",
+        price: 1750.00,
+        description: "A premium leather jacket with a classic fit.",
+        image: "https://rukminim2.flixcart.com/image/850/1000/xif0q/jacket/c/u/j/xxl-no-classic-latest-fashion-black-biker-leather-jacket-for-men-original-imagtzbkwz4wjzwb.jpeg?q=90&crop=false",
+        reviews: ["Looks stylish!", "Very durable material."]
+      },
+      {
+        id: 23,
+        name: "Electric Kettle",
+        brand: "KitchenPro",
+        category: "Appliances",
+        price: 1000.00,
+        description: "Fast-boiling electric kettle with auto shut-off feature.",
+        image: "https://www.milton.in/cdn/shop/files/Go_Electro_Kettle_1.2_Litre_5.jpg?v=1740552440",
+        reviews: ["Boils water super fast!", "Very convenient for daily use."]
+      }
 ];
 
 export default products;

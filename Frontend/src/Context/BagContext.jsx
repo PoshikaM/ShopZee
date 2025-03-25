@@ -4,6 +4,7 @@ export const BagContext = createContext();
 
 export const BagProvider = ({ children }) => {
     const [bag, setBag] = useState([]);
+    const [wishlist, setWishlist] = useState([]);
 
     const addToBag = (product) => {
         setBag(prev => {
@@ -31,8 +32,16 @@ export const BagProvider = ({ children }) => {
         });
     };
 
+    const addToWishlist = (product) => {
+        setWishlist((prev) => prev.find(item => item.id === product.id) ? prev : [...prev, product]);
+    };
+
+    const removeFromWishlist = (id) => {
+        setWishlist(prev => prev.filter(item => item.id !== id));
+    };
+
     return (
-        <BagContext.Provider value={{ bag, addToBag, removeFromBag, updateQuantity }}>
+        <BagContext.Provider value={{ bag, addToBag, removeFromBag, updateQuantity, wishlist, addToWishlist, removeFromWishlist }}>
         {children}
         </BagContext.Provider>
     );

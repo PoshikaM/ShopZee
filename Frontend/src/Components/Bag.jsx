@@ -64,7 +64,7 @@ const Bag = ({ isOpen, onClose }) => {
                 ))
             )}
             <div className="p-4 border-t">
-            <p className="font-bold">Total: ₹{totalPrice.toFixed(2)}</p>
+            <p className="font-bold text-center">Total: ₹{totalPrice.toFixed(2)}</p>
         </div>
         </div>
         </div>

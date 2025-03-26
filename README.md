@@ -1,4 +1,4 @@
-# 🛍 Simplified Product Display Web Application ( ShopZee )
+# 🛍 ShopZee Simplified Product Display Web Application
 
 ## 🎯 Objective
 
@@ -105,16 +105,22 @@ Solution: Tailwind CSS flex and grid layouts were used to ensure responsiveness 
 
 ## 📌 Notes
 
-### ✅ Frontend Implementation: Clean and responsive UI
+#### ✅ Frontend Implementation: Clean and responsive UI
 
-### ✅ Code Quality: Well-structured, readable, and maintainable.
+#### ✅ Code Quality: Well-structured, readable, and maintainable.
 
-### ✅ Documentation: Clear README and inline code comments.
+#### ✅ Documentation: Clear README and inline code comments.
 
-### ✅ Bonus Tasks: 
-- ### Fetched product data from my Backend API.
+#### ✅ Bonus Tasks: 
+- #### Fetched product data from my Backend API.
 
-- ### The barcode scanner feature is added as an enhancement.
+- #### The barcode scanner feature is added as an enhancement.
+
+## 🔗 Delpoyed Link
+
+**Frontend** - [ShopZee](https://shopzeee1.netlify.app/)
+
+**Backend** - [ShopZee Backend](https://shopzee-h2ls.onrender.com/products)
 
 ## 📢 Feel free to contribute or raise issues!
 

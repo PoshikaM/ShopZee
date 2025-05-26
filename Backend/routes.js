@@ -1,10 +1,11 @@
 const express = require("express");
-const { productData } = require("./mongodb");
+const { getProductModel } = require("./mongodb");
 
 const app = express();
 
 app.get("/products", async (req, res) => {
     try {
+        const productData = getProductModel(); //
         const products = await productData.find();
         res.status(200).json(products);
     } catch (error) {
@@ -15,6 +16,7 @@ app.get("/products", async (req, res) => {
 // POST (Only implemented in backend)
 app.post("/products", async (req, res) => {
     try {
+        const productData = getProductModel(); //
         const newProduct = new productData(req.body);
         await newProduct.save();
         res.status(201).json({ message: "Product added successfully", product: newProduct });
